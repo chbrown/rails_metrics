@@ -14,6 +14,7 @@ module RailsMetrics
   module ORM
     autoload :ActiveRecord, 'rails_metrics/orm/active_record'
     autoload :DataMapper,   'rails_metrics/orm/data_mapper'
+    autoload :Sequel,       'rails_metrics/orm/sequel'
 
     class << self
       class_attribute :primary_key_finder

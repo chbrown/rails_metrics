@@ -7,7 +7,6 @@ end
 
 module RailsMetrics
   module ORM
-
     # Include in your model to store metrics. For DataMapper, you need the
     # following setup:
     #
